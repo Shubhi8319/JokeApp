@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid black; */
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: #FF512F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+form{
+    height: 90vh;
+    width: 50vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./Assets/background.jpg);
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 20px;
+    -webkit-box-shadow: 3px 10px 30px 11px rgba(240,179,56,1);
+    -moz-box-shadow: 3px 10px 30px 11px rgba(240,179,56,1);
+    box-shadow: 3px 10px 30px 11px rgba(240,179,56,1);
+    
+}
+
+form input::placeholder{
+    font-size: 19x;
+    color: rgba(238, 232, 232, 0.8)
+}
+form button{
+    cursor: pointer;
+    font-size: 22px;
+    border: none;
+    width: 200px;
+    height: 45px;
+    background: none;
+    background-color: red;
+    color: #fff;
+    border-radius: 30px 4px 30px 4px;
+    margin-bottom: 30px;
+
+}
+.result{
+    background-color: mediumorchid;
+    color: #fff;
+    border-radius: 20px;
+}
+h1,h2{
+    background: #121FCF;
+background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+   
+}
+h1{
+    font-size: 33px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    text-align: center;
+}
+h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.joke{
+    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: #692b79;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #c73c6aCC, #642B73);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C6426ECC, #642B73CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+p{
+    text-align: center;
+    color: #fff;
+    font-size: 20px; 
+}
+@media(max-width:600px){
+    .container{
+       
+    }
+    form{
+        height: 70vh !important;
+        width: 80vw;
+    
+    }
+   
+   
+}
