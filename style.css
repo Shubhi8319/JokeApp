@@ -26,7 +26,6 @@ form{
     justify-content: center;
     background-image: url(./Assets/background.jpg);
     background-size: cover;
-    border: 1px solid black;
     border-radius: 20px;
     -webkit-box-shadow: 3px 10px 30px 11px rgba(240,179,56,1);
     -moz-box-shadow: 3px 10px 30px 11px rgba(240,179,56,1);
