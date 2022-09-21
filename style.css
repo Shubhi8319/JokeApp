@@ -92,20 +92,20 @@ p{
        
     }
     form{
-       
+       height: 80vh;
         width: 80vw;
     
     }
    h1{
-    font-size: 25px;
+    font-size: 27px;
     margin-bottom: 10px;
    }
    h2{
-    font-size: 22px;
+    font-size: 23px;
     margin-bottom: 18px;
    }
    p{
-    font-size: 15px;
+    font-size: 18px;
    }
    button{
         font-size: 17px;
