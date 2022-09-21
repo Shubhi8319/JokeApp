@@ -50,11 +50,7 @@ form button{
     margin-bottom: 30px;
 
 }
-.result{
-    background-color: mediumorchid;
-    color: #fff;
-    border-radius: 20px;
-}
+
 h1,h2{
     background: #121FCF;
 background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
@@ -96,10 +92,22 @@ p{
        
     }
     form{
-        height: 70vh !important;
+       
         width: 80vw;
     
     }
-   
-   
+   h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+   }
+   h2{
+    font-size: 22px;
+    margin-bottom: 18px;
+   }
+   p{
+    font-size: 15px;
+   }
+   button{
+        font-size: 17px;
+   }
 }
